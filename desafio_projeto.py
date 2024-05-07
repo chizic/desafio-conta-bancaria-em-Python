@@ -16,7 +16,7 @@ while True:
             extrato += f"Depósito: R$ {valor:.2f}\n"
 
         else:
-            print("Falha ao realizar depósito, TRente novamente")
+            print("Falha ao realizar depósito, Tente novamente")
 
     elif menu == "s":
         valor = float(input("Informe o valor do saque: "))
@@ -36,7 +36,7 @@ while True:
             numero_saques += 1
 
         else:
-            print("FAlha na operação! Valor inválido.")
+            print("Falha na operação! Valor inválido.")
 
     elif menu == "e":
        
